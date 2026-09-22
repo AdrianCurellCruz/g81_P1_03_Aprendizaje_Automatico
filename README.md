@@ -1,17 +1,33 @@
 # Aprendizaje Automático - Modelos Avanzados
 
-Fork de un proyecto académico en equipo (2 personas) — Aprendizaje Automático, UC3M.
-Repositorio original: https://github.com/100522320/g81_P1_03_Aprendizaje_Automatico
 
-## Mi Contribución
-- Feature engineering y preprocesamiento de datos.
-- Entrenamiento y evaluación de modelos SVM y Random Forest.
-- Optimización de hiperparámetros con GridSearchCV y validación cruzada.
 
-## Descripción del Proyecto
-Desarrollo, comparación e interpretabilidad de modelos predictivos orientados al análisis de rendimiento y prevención de sobreajuste.
+ **Fork de un proyecto académico en equipo (2 personas)** — Aprendizaje
+ Automático, UC3M.
+ Original: https://github.com/100522320/g81_P1_03_Aprendizaje_Automatico
 
-## Tecnologías
-Python, Scikit-Learn, Pandas, NumPy, Matplotlib
 
+
+# g81_P1_03 — Clasificación de Clientes Bancarios con ML
+
+Pipeline de clasificación supervisada sobre datos de clientes bancarios:
+EDA, entrenamiento de modelos y despliegue en una app interactiva.
+
+## Contenido
+- `notebook_final.ipynb` — pipeline completo (EDA, modelos, evaluación)
+- `mystreamlit.py` — app interactiva de predicciones
+- `modelo_final.pkl` — modelo final entrenado
+- `predicciones.csv` — predicciones sobre el dataset de test
+- `requirements.txt` — dependencias
+
+## Uso
+```bash
+pip install -r requirements.txt
+python -m streamlit run mystreamlit.py
+```
+
+## Enfoque técnico
+Random Forest, SVM y Regresión Logística, con optimización de
+hiperparámetros (`GridSearchCV`) y evaluación por validación cruzada
+(Accuracy, F1-Score, ROC-AUC).
 
