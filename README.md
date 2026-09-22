@@ -1,8 +1,4 @@
-# g81_P1_03_Aprendizaje_Automatico
-Para ejecutar mystreamlit.py en vscode hay que descargar las librerias del requirement.txt haciendo:
-
-'pip install -r requirements.txt'
-
-Y después escribir en la terminal:
-
-'python -m streamlit run mystreamlit.py'
+**Fork de un proyecto académico en equipo (2 personas)** — Aprendizaje
+Automático, UC3M. Repositorio original: github.com/[usuario-companero]/repo
+**Mi contribución:** feature engineering, entrenamiento de modelos SVM y
+Random Forest, optimización de hiperparámetros con GridSearchCV.
